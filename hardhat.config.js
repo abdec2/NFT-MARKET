@@ -8,11 +8,11 @@ module.exports = {
       chainId: 1337
     }, 
     mumbai: {
-      url: `https://polygon-mumbai.infura.io/v3/a966a4569761414caecf14ee3453d6fd`, 
+      url: `https://rpc-mumbai.maticvigil.com`, 
       accounts: [privatekey]
     }, 
     mainnet:{
-      url: `https://polygon-mainnet.infura.io/v3/a966a4569761414caecf14ee3453d6fd`, 
+      url: `https://polygon-rpc.com/`, 
       accounts: [privatekey]
     }
   },
