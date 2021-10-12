@@ -12,7 +12,7 @@ import {
 
 import Item from './components/Item'
 
-function creatorDashboard() {
+function CreatorDashboard() {
     const [nfts, setNfts] = useState([])
     const [sold, setSold] = useState([])
     const [loadingState, setLoadingState] = useState('not-loaded')
@@ -96,4 +96,4 @@ function creatorDashboard() {
 
 }
 
-export default creatorDashboard
+export default CreatorDashboard

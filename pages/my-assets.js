@@ -12,7 +12,7 @@ import {
     nftmarketaddress
 } from '../config'
 
-function myAssets() {
+function MyAssets() {
     const [nfts, setNfts] = useState([])
     const [loadingState, setLoadingState] = useState('not-loaded')
     useEffect(() => {
@@ -64,4 +64,4 @@ function myAssets() {
 
 }
 
-export default myAssets
+export default MyAssets

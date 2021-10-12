@@ -14,7 +14,7 @@ import {
 import NFT from '../artifacts/contracts/NFT.sol/NFT.json'
 import Market from '../artifacts/contracts/NFTMarket.sol/NFTMarket.json'
 
-function createItem() {
+function CreateItem() {
     const [fileUrl, setFileUrl] = useState(null)
     const [formInput, updateFormInput] = useState({ price: '', name: '', description: '' })
     const router = useRouter()
@@ -109,4 +109,4 @@ function createItem() {
 
 }
 
-export default createItem
+export default CreateItem
